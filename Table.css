@@ -1,0 +1,33 @@
+/*
+*Wendy Mayo
+*Due Date
+*Project Name and Description
+*/
+
+/* The universal selector */
+*{
+}
+/* Body attributes here */
+body {
+   
+}
+table /* The border on the outer side of the table should be thin, solid, and blue */
+{border: 2px solid blue;
+    border-collapse: collapse;
+}
+
+ td /* The lines on the inside of the table should be more thin than the outer lines  */
+{border: 1px solid blue;
+}
+
+th /* The heads should have a border to seperate them */
+{border: 1px solid blue;
+}
+
+thead /* The first two rows background should be lime  */
+{background-color: lime;
+}
+
+tfoot /* The last row background color should be deepskyblue  */
+{background-color: deepskyblue;
+}
